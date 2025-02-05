@@ -1,0 +1,12 @@
+- Conhecer a história e a filosofia de Java
+- Entender a contribuição de linguagem para a Internet
+- Entender a importância do bytecode
+- Conhecer o jargão Java
+- Entender os princípios básicos da programação orientada a objetos
+- criar, compilar e executar um programa Java simples
+- Usar variáveis
+- usar as instruções de controle if e for
+- Criar blocos de código
+- Entender como as instruções são  posicionadas, recuadas e finalizadas
+- Saber as palavras-chave Java
+- Entender as regras dos identificadores Java

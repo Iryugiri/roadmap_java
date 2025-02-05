@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Java para Iniciantes/Capitulo 1/Capitulo 1 - Fundamentos da linguagem Java.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Capitulo 1 - Fundamentos da linguagem Java"
             }
           }
         ]
@@ -185,7 +185,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,29 +205,38 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "4d6fdd7e7dcdeadd",
+  "active": "684ca19aa36bda2a",
   "lastOpenFiles": [
-    "README.md",
-    "README_IMG/graph.png",
-    "README_IMG/Pasted image 20250203161552.png",
-    "README_IMG",
-    "RoadMap do DavJaveiro/Covers/Pasted image 20250118145051.png",
-    "Behavioral Interview/Introdução.md",
+    "Java para Iniciantes/Capitulo 1/Imagens/Capitulo 1 - Fundamentos da linguagem Java 2.png",
+    "Java para Iniciantes/Capitulo 1/Imagens/Capitulo 1 - Fundamentos da linguagem Java 1.png",
+    "Java para Iniciantes/Capitulo 1/Imagens/Capitulo 1 - Fundamentos da linguagem Java.png",
+    "Conceitos/Programas Ativos.md",
     "Java para Iniciantes/Capitulo 1/Capitulo 1 - Fundamentos da linguagem Java.md",
-    "Java para Iniciantes/Capitulo 1/Imagens",
-    "Java para Iniciantes/Capitulo 1",
-    "RoadMap do DavJaveiro/RoadMap.md",
-    "Java para Iniciantes",
+    "Java para Iniciantes/Principais Habilidades e Conceitos.md",
+    "Conceitos/Informações Passivas.md",
+    "Conceitos",
+    "Java para Iniciantes/Capitulo 1/Imagens/Untitled.canvas",
+    "Java para Iniciantes/Capitulo 1/Drawing 2025-02-05 17.11.23.excalidraw.md",
     "RoadMap do DavJaveiro/RoadMap.canvas",
-    "RoadMap do DavJaveiro/Covers/Pasted image 20250120223109.png",
-    "Pasted image 20250124183108.png",
+    "RoadMap do DavJaveiro/Untitled.canvas",
+    "Assuntos para pesquisar.md",
     "RoadMap do DavJaveiro/Covers/Think Java.png",
     "RoadMap do DavJaveiro/Covers/TDD Icon.png",
     "RoadMap do DavJaveiro/Covers/TDD Book.png",
     "RoadMap do DavJaveiro/Covers/SQL Book.png",
     "RoadMap do DavJaveiro/Covers/SpringBoot Icon.png",
+    "RoadMap do DavJaveiro/Covers/Spring Start Here.png",
+    "RoadMap do DavJaveiro/Covers/Spring in Action Book.png",
+    "RoadMap do DavJaveiro/Covers/Spring Icon.png",
     "RoadMap do DavJaveiro/Covers",
+    "RoadMap do DavJaveiro/RoadMap.md",
     "RoadMap do DavJaveiro",
+    "README.md",
+    "README_IMG",
+    "Behavioral Interview/Introdução.md",
+    "Java para Iniciantes/Capitulo 1/Imagens",
+    "Java para Iniciantes/Capitulo 1",
+    "Java para Iniciantes",
     "CND.md",
     "Compilação vs Transpilação.md",
     "Errors API.md",
@@ -239,19 +249,13 @@
     "Artigos/Paradigmas/Artigo 1/Imagens",
     "Artigos/Paradigmas/Artigo 1/Análise Comparativa de programação funcional e programação orientada a objeto.md",
     "Artigos/Paradigmas/Artigo 2",
-    "Artigos/Paradigmas/Artigo 3",
     "Artigos/Papers for Science and Technology for Dummies.md",
     "Arquitetura e Organização de Computadores/Capítulo 1 - Conceitos Básicos e Evolução do Computador.md",
     "Engenharia de Software Moderna/Capítulo 1 - Introdução.md",
     "Java Interview/Básico de Java/Básico de Java.md",
     "Java Nelio Alves/Seção 1 - Conceitos de Programação/4. Algoritmo, Automação, Programa de Computador.md",
     "Descomplicando o Docker/1. O que é um container.md",
-    "Untitled.md",
     "Descomplicando o Docker/2. O que é o Docker.md",
-    "Spring in Action/Capítulo 3 - Working with data.md",
-    "Desenvolvimento Real de Software/Capítulo 2 - Análise de Extratos Bancários.md",
-    "Modern API Development with SPring 6 and Spring Boot 3/Part 1 - Restful Web Service Fundamentals/Capítulo 2/Chapter 2 - Sring Concepts and REST APIs.md",
-    "Spring Security/Capítulo 1 - Segurança hoje.md",
     "RoadMap do DavJaveiro/Sem título.canvas",
     "Indistraível - Nir Eyal/Resumo.canvas"
   ]

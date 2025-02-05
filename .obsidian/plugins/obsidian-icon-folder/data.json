@@ -5,7 +5,10 @@
     "fontSize": 26,
     "emojiStyle": "native",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "LiArchive",
+      "LiFile"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {

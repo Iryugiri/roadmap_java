@@ -1,0 +1,198 @@
+{
+  "nodes": [
+    {
+      "id": "710285bab0c353f3",
+      "type": "text",
+      "text": "",
+      "styleAttributes": {},
+      "x": -300,
+      "y": -120,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "5441d54c97767c89",
+      "type": "file",
+      "file": "RoadMap do DavJaveiro/Covers/Engenharia de Software Icon.png",
+      "styleAttributes": {
+        "border": null
+      },
+      "x": -830,
+      "y": -720,
+      "width": 1321,
+      "height": 1070
+    },
+    {
+      "id": "7fd9076c678ccc27",
+      "type": "text",
+      "text": "## Computer Aided Design",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -1120,
+      "y": -1280,
+      "width": 500,
+      "height": 80
+    },
+    {
+      "id": "893b92be67c417c5",
+      "type": "text",
+      "text": "## Computer systems",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -380,
+      "y": -1400,
+      "width": 420,
+      "height": 80
+    },
+    {
+      "id": "df8933037d85b4d0",
+      "type": "text",
+      "text": "## Algoritmos de Alta Performance",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -1900,
+      "y": -420,
+      "width": 620,
+      "height": 100
+    },
+    {
+      "id": "dd7c69375d784059",
+      "type": "text",
+      "text": "## Engenharia de Software",
+      "styleAttributes": {
+        "textAlign": null,
+        "shape": null
+      },
+      "x": 920,
+      "y": 480,
+      "width": 390,
+      "height": 160
+    },
+    {
+      "id": "99155affda391676",
+      "type": "text",
+      "text": "\nApresenta o projeto e concepção de softwares a partir de estudo de Casos de Uso, UML, CMMI, levantamento de requisitos de software. Apresenta as métricas de processo e projeto de software, discutindo o planejamento, análise e gestão de riscos além da garantia de qualidade em softwares.",
+      "styleAttributes": {},
+      "x": 920,
+      "y": 780,
+      "width": 390,
+      "height": 200
+    },
+    {
+      "id": "4dd96b1e5d341991",
+      "type": "text",
+      "text": "## Análise de Problemas multivariáveis e Modelagem",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": 400,
+      "y": -1380,
+      "width": 560,
+      "height": 180
+    },
+    {
+      "id": "d9c5d273fa2f6d3b",
+      "type": "text",
+      "text": "## Dynamical Systems & Control",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -720,
+      "y": 480,
+      "width": 420,
+      "height": 160
+    },
+    {
+      "id": "d7ea2354a5ca7f04",
+      "type": "text",
+      "text": "## Embedded Systems e Sistemas de Tempo Real",
+      "styleAttributes": {},
+      "x": -1440,
+      "y": 480,
+      "width": 560,
+      "height": 160
+    }
+  ],
+  "edges": [
+    {
+      "id": "48b7ec8b5df7ef7b",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "5441d54c97767c89",
+      "fromSide": "top",
+      "toNode": "7fd9076c678ccc27",
+      "toSide": "bottom"
+    },
+    {
+      "id": "3f4d62382856623f",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "5441d54c97767c89",
+      "fromSide": "right",
+      "toNode": "dd7c69375d784059",
+      "toSide": "left"
+    },
+    {
+      "id": "e109679307010dd4",
+      "styleAttributes": {},
+      "fromNode": "dd7c69375d784059",
+      "fromSide": "bottom",
+      "toNode": "99155affda391676",
+      "toSide": "top"
+    },
+    {
+      "id": "1dba488f27f9a60c",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "5441d54c97767c89",
+      "fromSide": "top",
+      "toNode": "4dd96b1e5d341991",
+      "toSide": "bottom"
+    },
+    {
+      "id": "e76f07a60d70e2bf",
+      "styleAttributes": {
+        "pathfindingMethod": "a-star"
+      },
+      "fromNode": "5441d54c97767c89",
+      "fromSide": "top",
+      "toNode": "893b92be67c417c5",
+      "toSide": "bottom"
+    },
+    {
+      "id": "1b357732121b472b",
+      "styleAttributes": {},
+      "fromNode": "5441d54c97767c89",
+      "fromSide": "left",
+      "toNode": "df8933037d85b4d0",
+      "toSide": "right"
+    },
+    {
+      "id": "844f592dbeb0d6a5",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "5441d54c97767c89",
+      "fromSide": "bottom",
+      "toNode": "d9c5d273fa2f6d3b",
+      "toSide": "top"
+    },
+    {
+      "id": "a5ffef91a45da930",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "5441d54c97767c89",
+      "fromSide": "bottom",
+      "toNode": "d7ea2354a5ca7f04",
+      "toSide": "top"
+    }
+  ],
+  "metadata": {}
+}

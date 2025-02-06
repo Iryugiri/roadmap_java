@@ -51,3 +51,25 @@ Logo após o lançamento do Java eles lançaram o HotSpot que oferece um compila
 As conciderações-chave do Java.
 
 ![[Capitulo 1 - Fundamentos da linguagem Java 2.png]]
+
+
+### Programação Orientada a Objetos
+
+#OOP pegou as melhores ideias da programação estruturada e combinou com conceitos novos. Existem de modo geral duas maneiras: a partir do código("o que está ocorrendo") ou a partir dos dados("o que está sendo afetado").
+
+#Programação_estruturada são organizadas a partir do código, baseando "o código atuando sobre os dados".
+
+#OOP é o contrario, são organizadas a partir dos dados, com principio chave: "dados controlando o acesso ao código", então basicamente, um tipo de dado define que tipo de operação pode ser aplicada a esses dados.
+
+Devido a isso as linguagens de #OOP tem suporte a três coisas, #encapsulamento, #polimorfismo e #herança.
+
+#### Encapsulamento
+#encapsulamento 
+
+O #encapsulamento encapsulamento é um mecanismo que vincula código e dados que são tratados. A unidade básica de encapsulamento do Java é a #classe, que por sua vez como é o que define forma a um #objeto, definindo a forma que os dados que operarão sobre ele e código também. O #objeto por sua vez é uma instância de uma #classe.
+
+Códigos e dados que fazem parte de uma #classe são chamados de *membro* da #classe, os dados definido pela #classe são chamada de *variáveis membro* ou *variáveis de instância*. O código que opera sobre esses dados são chamados de *método membro* ou apenas #método(método é o termo em Java para uma sub-rotina).   
+
+#### Polimorfismo
+#polimorfismo 
+

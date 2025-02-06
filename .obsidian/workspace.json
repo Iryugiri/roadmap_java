@@ -185,8 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,19 +206,19 @@
   },
   "active": "684ca19aa36bda2a",
   "lastOpenFiles": [
+    "Java para Iniciantes/Principais Habilidades e Conceitos.md",
+    "Java para Iniciantes/Capitulo 1/Capitulo 1 - Fundamentos da linguagem Java.md",
+    "RoadMap do DavJaveiro/RoadMap.canvas",
+    "Assuntos para pesquisar.md",
     "Java para Iniciantes/Capitulo 1/Imagens/Capitulo 1 - Fundamentos da linguagem Java 2.png",
     "Java para Iniciantes/Capitulo 1/Imagens/Capitulo 1 - Fundamentos da linguagem Java 1.png",
     "Java para Iniciantes/Capitulo 1/Imagens/Capitulo 1 - Fundamentos da linguagem Java.png",
     "Conceitos/Programas Ativos.md",
-    "Java para Iniciantes/Capitulo 1/Capitulo 1 - Fundamentos da linguagem Java.md",
-    "Java para Iniciantes/Principais Habilidades e Conceitos.md",
     "Conceitos/Informações Passivas.md",
     "Conceitos",
     "Java para Iniciantes/Capitulo 1/Imagens/Untitled.canvas",
     "Java para Iniciantes/Capitulo 1/Drawing 2025-02-05 17.11.23.excalidraw.md",
-    "RoadMap do DavJaveiro/RoadMap.canvas",
     "RoadMap do DavJaveiro/Untitled.canvas",
-    "Assuntos para pesquisar.md",
     "RoadMap do DavJaveiro/Covers/Think Java.png",
     "RoadMap do DavJaveiro/Covers/TDD Icon.png",
     "RoadMap do DavJaveiro/Covers/TDD Book.png",
@@ -227,7 +226,6 @@
     "RoadMap do DavJaveiro/Covers/SpringBoot Icon.png",
     "RoadMap do DavJaveiro/Covers/Spring Start Here.png",
     "RoadMap do DavJaveiro/Covers/Spring in Action Book.png",
-    "RoadMap do DavJaveiro/Covers/Spring Icon.png",
     "RoadMap do DavJaveiro/Covers",
     "RoadMap do DavJaveiro/RoadMap.md",
     "RoadMap do DavJaveiro",

@@ -5,7 +5,7 @@
 - Entender os princípios básicos da programação orientada a objetos
 - criar, compilar e executar um programa Java simples
 - Usar variáveis
-- usar as instruções de controle if e for
+- Usar as instruções de controle if e for
 - Criar blocos de código
 - Entender como as instruções são  posicionadas, recuadas e finalizadas
 - Saber as palavras-chave Java

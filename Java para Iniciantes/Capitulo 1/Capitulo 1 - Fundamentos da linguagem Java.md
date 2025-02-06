@@ -73,3 +73,44 @@ Códigos e dados que fazem parte de uma #classe são chamados de *membro* da #cl
 #### Polimorfismo
 #polimorfismo 
 
+Geralmente é representado pela frase "uma interface, vários #método's", mas definindo mais simplesmente, é a capacidade de um objeto de assumir mais de uma forma, comummente usada por interfaces para especificar algo mais generalizado, ela permite que uma #classe  geral de ação, por meio do compilador, selecionar a "ação"( #método ) específica conforme a situação
+
+### Herança
+#herança 
+
+É o meio q um #objeto pode adquirir as propriedades de outro #objeto, isso é importante porque pode se usar o conceito de #top-down(hierarquia). Exemplo: Uma maçã fuji é classificada como maçã, maçã  pode ser classificada como fruta, que por sua vez pode ser classificada como alimento... assim por diante. Assim com essas classificações elas podem ter várias características específicas, por exemplo: Um alimento pode ser caracterizado como; comestível, alimento..., uma fruta pode ser características como; suculenta, doce..., ja a maçã pode ter características como; cresce em árvore, redonda...etc.
+
+### Compilação
+#compilação #bytecode 
+
+```java
+class Example {
+// Um programa Java começa com uma chamada a main().
+	public static void main(String args[]) {
+	System.out.println("Hello world");
+	}
+}
+```
+
+<span style="background:#ff4d4f"> Em Java o nome dado a um arquivo-fonte é muito importante.</span> Para esse exemplo, o nome do arquivo-fonte deve ser Example.java. 
+
+Porque?
+
+> Em Java, um arquivo-fonte é chamado oficialmente de unidade de compi- lação. É um arquivo de texto que contém (entre outras coisas) uma ou mais de- finições de classe. (Por enquanto, usaremos arquivos-fonte contendo apenas uma classe.) O compilador Java requer que o arquivo-fonte use a extensão de nome de arquivo .java. Como você pode ver examinando o programa, o nome da classe de- finida por ele também é Example. Isso não é coincidência. Em Java, todo código deve residir dentro de uma classe. Por convenção, o nome da classe principal deve coincidir com o nome do arquivo que contém o programa. Você também deve se certificar de que a capitalização do nome do arquivo coincida com a do nome da classe. Isso ocorre porque Java diferencia maiúsculas de minúsculas. Nesse mo- mento, a convenção de que os nomes de arquivo devem corresponder aos nomes das classes pode parecer arbitrária. Contudo, essa convenção facilita a manutenção e a organização dos programas.
+
+#### Compilando
+
+Para compilar o exemplo basta executar o compilador `javac` especificando o nome do arquivo-fonte
+
+``` Cmd
+javac Exemplo.java
+```
+
+Vai ser criado um arquivo `Exemplo.class`, contendo a versão em #bytecode do programa. Depois basta executar o programa com uma JVM usando o comando `java`:
+
+```Cmd
+java Exemplo
+```
+Atenção: <span style="background:#d4b106">Não é necessário colocar a extensão</span> `.class`.
+
+Quando o código-fonte Java é compilado, cada classe é inserida em seu próprio arquivo de saída com o mesmo nome da classe usando a extensão .class. É por isso que é uma boa ideia dar a seus arquivos-fonte Java o mesmo nome da classe que eles contêm – o nome do arquivo-fonte coincidirá com o nome do arquivo .class. Quando você executar o interpretador de Java como acabei de mostrar, estará especificando o nome da classe que deseja que o interpretador execute. Ele procurará automática-mente um arquivo com esse nome que tenha a extensão .class. Se encontrar, execu-tará o código contido na classe especificada.

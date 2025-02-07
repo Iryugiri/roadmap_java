@@ -694,6 +694,26 @@
       "y": -14540,
       "width": 400,
       "height": 400
+    },
+    {
+      "id": "ea5d0789c4df884e",
+      "type": "file",
+      "file": "Java para Iniciantes/Capitulo 2/Capitulo 2 - Introdução a tipo de dados e operadores.md",
+      "styleAttributes": {},
+      "x": 4920,
+      "y": -14049,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "bc84b55ac6557e2b",
+      "type": "file",
+      "file": "Java para Iniciantes/Capitulo 2/Sound.java",
+      "styleAttributes": {},
+      "x": 3920,
+      "y": -14049,
+      "width": 400,
+      "height": 400
     }
   ],
   "edges": [
@@ -1431,6 +1451,26 @@
       "fromNode": "ea1c45dcc9c0b891",
       "fromSide": "left",
       "toNode": "fcf9f67a7199867c",
+      "toSide": "right"
+    },
+    {
+      "id": "ec9505b3278a1f52",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "ea1c45dcc9c0b891",
+      "fromSide": "left",
+      "toNode": "ea5d0789c4df884e",
+      "toSide": "right"
+    },
+    {
+      "id": "01d0a4811687d486",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "ea5d0789c4df884e",
+      "fromSide": "left",
+      "toNode": "bc84b55ac6557e2b",
       "toSide": "right"
     }
   ],

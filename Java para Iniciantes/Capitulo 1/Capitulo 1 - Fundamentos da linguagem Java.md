@@ -1,3 +1,17 @@
+**Principais habilidades e conceitos**
+- Conhecer a história e a filosofia de Java
+- Entender a contribuição de linguagem para a Internet
+- Entender a importância do bytecode
+- Conhecer o jargão Java
+- Entender os princípios básicos da programação orientada a objetos
+- criar, compilar e executar um programa Java simples
+- Usar variáveis
+- Usar as instruções de controle if e for
+- Criar blocos de código
+- Entender como as instruções são  posicionadas, recuadas e finalizadas
+- Saber as palavras-chave Java
+- Entender as regras dos identificadores Java
+
 ### Origem da linguagem Java
 #origem
  Java foi criado por *James Gosling*, *Patrick Naughton*, *Chris Warth*, *Ed Frank* e *Mike Sheridan* em 1991. No inicio ela se chamava "Oak", mas foi renomeada como Java em 1995.
@@ -44,7 +58,7 @@ Existe uma diferença entre o tempo de um programa interpretado e um compilado, 
 
 Logo após o lançamento do Java eles lançaram o HotSpot que oferece um compilador #JIT(just-in-time) para #bytecode, o #JIT ajuda porque ele compila partes selecionadas, fragmento por fragmento. Não é pratico compilar o programa inteiro porque o Java tem validações que são feitas em tempo de execução, assim o #JIT compila so o necessário. Mesmo com o #JIT os princípios de #segurança e #portabilidade ainda são aplicáveis por ser rodado dentro de um ambiente controlado(JVM).
 
-![[Java para Iniciantes/Capitulo 1/Imagens/Capitulo 1 - Fundamentos da linguagem Java.png]] ![[Capitulo 1 - Fundamentos da linguagem Java 1.png]]
+![[Java para Iniciantes/Capitulo 1/Imagens/Capitulo 1 - Fundamentos da linguagem Java.png]]#ats ![[Capitulo 1 - Fundamentos da linguagem Java 1.png]]#ats
 
 ### O jargão Java
 

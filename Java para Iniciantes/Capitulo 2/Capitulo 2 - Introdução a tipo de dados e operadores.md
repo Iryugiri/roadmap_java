@@ -67,7 +67,7 @@ Na linha 51 podemos ver que o #char *pode* ser incrementado e na linha 54 podemo
 O tipo #boolean recebe os valores verdadeiro ou falso.
 
 
-### Exercício
+#### Exercício
 
 Neste projeto, você criará um programa que calcula a que distância, em pés,
 um ouvinte está da queda de um relâmpago. O som viaja a aproximadamente 1.100 pés por segundo pelo ar. Logo, conhecer o intervalo entre o momento em que você viu um relâmpago e o momento em que o som o alcançou lhe permitirá calcular a distância do relâmpago. Para este projeto, assuma que o intervalo seja de 7,2 segundos.
@@ -76,7 +76,7 @@ Resolução:
 
 ![[Sound.java]]
 
-#### Literais
+### Literais
 #literal
 
 Em java os #literal são valores fixos representados em sua forma legível por humanos. Os literais são qualquer tipo de dado primitivo e a maneira de ser representado depende do tipo. As constantes no Java são  representada por *'* *'*, por exemplo 'a' e '%' são constantes de caracteres. Por padrão, os #inteiros são declarados simplesmente colocando o numero e os #long são declarados acrescentando um L na frente do número. Por exemplo: 12 é um inteiro, mas 12L é um #long.
@@ -89,7 +89,7 @@ A partir do JDK 7, é permitido embutir um ou mais sublinhados em um literal in
 
 Essa linha especifica o valor 123.451.234. O uso de sublinhados é particularmente útil na codificação de coisas como números de peças, identificações de clientes e códigos de status que normalmente são criados como uma combinação de subgrupos de dígitos.
 
-### Literais hexadecimais, octais e binários
+#### Literais hexadecimais, octais e binários
 
 Sistemas baseados em 8 ou 16 em vez de 10 normalmente são mais fáceis de usar na programação.
 
@@ -118,3 +118,50 @@ A partir do Java 7 é possível usar #literal inteiro para uso #binário. Para f
 Esse é o valor 0xFF em hexadecimal: 255
 Esse é o valor 011 em octal: 9
 Esse é o valor 1100 em binario: 12
+
+#### Sequências de escape de caracteres
+
+![[Capitulo 2 - Introdução a tipo de dados e operadores 4.png]]
+
+O \ddd por ser octal aceita 3 algarismos, no intervalo de [0-7], mas pela quantidade de bits pode ir ate 255 decimal e 377 octal.
+
+![[Capitulo 2 - Introdução a tipo de dados e operadores 5.png]]#ats
+
+#### Um exame mais detalhado das variáveis
+
+Inicialização de #variavel.
+
+```Java
+class InitializeVar {
+	public static void main(String args[]) {
+		int count = 10; // dá a count um valor inicial igual a 10 
+		char ch = 'X';  // inicializa ch com a letra X 
+		float f = 1.2F; // f é inicializada com 1,2
+	}
+}
+```
+
+Podemos inicializar uma variável usando tipo uma lista, separada por virgula.
+
+```Java
+class InitializeVarList {
+	public static void main(String args[]) {
+		int a,b = 10, c = 20; // b e c tem inicializações
+	}
+}
+```
+
+Inicialização dinâmica de #variavel: 
+
+```Java
+class DynInit {
+	public static void main(String args[]) {
+		int radius = 5, height = 3;
+		
+		//Inicializa a terceira var dinamicamente, no tempo de execução
+		double volume = 3.14 * radius * radius * height;
+		
+		System.out.println("The volume is: " + volume)
+	}
+}
+```

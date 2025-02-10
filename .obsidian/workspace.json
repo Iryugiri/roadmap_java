@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#ats",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -155,7 +155,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": true,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -181,10 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RoadMap do DavJaveiro/RoadMap.canvas"
+                "file": "Java para Iniciantes/Capitulo 2/Capitulo 2 - Introdução a tipo de dados e operadores.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de RoadMap"
+              "title": "Outline of Capitulo 2 - Introdução a tipo de dados e operadores"
             }
           },
           {
@@ -221,21 +226,24 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "16519488b535d339",
+  "active": "684ca19aa36bda2a",
   "lastOpenFiles": [
-    "Codigos/untitled/src/Literais.java",
+    "Java para Iniciantes/Capitulo 2/Imagens/Capitulo 2 - Introdução a tipo de dados e operadores 5.png",
+    "Codigos/EscapeSequence.java",
+    "Codigos/asd.java",
     "Java para Iniciantes/Capitulo 2/Capitulo 2 - Introdução a tipo de dados e operadores.md",
-    "Codigos/untitled/out/production/untitled/Main.class",
-    "Codigos/untitled/out/production/untitled/Literais.class",
-    "Codigos/untitled/out/production/untitled",
-    "Codigos/untitled/out/production",
-    "Codigos/untitled/out",
-    "Codigos/untitled/untitled.iml",
-    "Codigos/untitled/src/Main.java",
-    "Codigos/untitled/src",
-    "Codigos/untitled",
-    "RoadMap do DavJaveiro/RoadMap.canvas",
+    "Codigos/Main.java",
+    "Codigos/Literais.java",
+    "Codigos/out/production/Codigos/Main.class",
+    "Codigos/out/production/Codigos/Literais.class",
+    "Codigos/out/production/Codigos",
+    "Codigos/out/production",
+    "Codigos/out",
+    "Codigos/untitled/src/Literais.java",
     "Java para Iniciantes/Capitulo 1/Capitulo 1 - Fundamentos da linguagem Java.md",
+    "Pasted image 20250210172513.png",
+    "Java para Iniciantes/Capitulo 2/Imagens/Capitulo 2 - Introdução a tipo de dados e operadores 4.png",
+    "RoadMap do DavJaveiro/RoadMap.canvas",
     "RoadMap do DavJaveiro/RoadMap.md",
     "Java para Iniciantes/Capitulo 2/Imagens/Capitulo 2 - Introdução a tipo de dados e operadores 3.png",
     "Java para Iniciantes/Capitulo 2/Imagens/Capitulo 2 - Introdução a tipo de dados e operadores 2.png",
@@ -252,8 +260,6 @@
     "Java para Iniciantes/Capitulo 1/Drawing 2025-02-05 17.11.23.excalidraw.md",
     "RoadMap do DavJaveiro/Untitled.canvas",
     "RoadMap do DavJaveiro/Covers/Think Java.png",
-    "RoadMap do DavJaveiro/Covers/TDD Icon.png",
-    "RoadMap do DavJaveiro/Covers/TDD Book.png",
     "README.md",
     "Behavioral Interview/Introdução.md",
     "CND.md",

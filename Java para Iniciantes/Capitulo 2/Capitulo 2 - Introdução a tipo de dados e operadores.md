@@ -165,3 +165,35 @@ class DynInit {
 	}
 }
 ```
+
+
+#### Operadores de Curto-Cicuito
+
+Normalmente usando operadores comuns em uma condicional #if ele verifica tomas a proposições lógicas, mas os operadores de curto-circuito eles ajudam na eficiência do código.
+
+Exemplo:
+```Java
+class SCops {
+	public static void main(String args[]) {
+		int x,y,z;
+		
+		x = 0;
+		y = z = 20;
+		
+		/* Ja que x é igual a 0 ele retorna um false parando a verificação
+		* impedindo o erro
+		*/
+		if (x != 0 && (n % d) == 0) {
+			System.out.println(d + " is a factor of " + n);
+		}
+		
+		/* Agora sem o operador de curto-circuito, o mesmo codigo 
+		*  causara um erro de divisão por 0.
+		*/
+		if (x != 0 & (n % d) == 0) {
+			System.out.println(d + " is a factor of " + n);
+		}
+		
+	}
+}
+```

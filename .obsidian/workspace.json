@@ -13,32 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java para Iniciantes/Capitulo 2/Capitulo 2 - Introdução a tipo de dados e operadores.md",
+                "file": "Java para Iniciantes/Capitulo 4/Capítulo 4 - Introdução a classes, objetos e métodos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Capitulo 2 - Introdução a tipo de dados e operadores"
+              "title": "Capítulo 4 - Introdução a classes, objetos e métodos"
             }
           },
           {
             "id": "6830853bfce458a9",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "RoadMap do DavJaveiro/RoadMap.canvas",
-                "viewState": {
-                  "x": 6044.736585404123,
-                  "y": -13065.801783356124,
-                  "zoom": -1.9999999999999993
-                }
+                "file": "Java para Iniciantes/Capitulo 4/Capítulo 4 - Introdução a classes, objetos e métodos.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "RoadMap"
+              "icon": "lucide-file",
+              "title": "Capítulo 4 - Introdução a classes, objetos e métodos"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -226,40 +224,40 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "684ca19aa36bda2a",
+  "active": "6830853bfce458a9",
   "lastOpenFiles": [
+    "Java para Iniciantes/Capitulo 1/Capitulo 1 - Fundamentos da linguagem Java.md",
+    "Java para Iniciantes/Capitulo 1/Imagens/Capitulo 1 - Fundamentos da linguagem Java 2.png",
+    "Java para Iniciantes/Capitulo 1/Imagens/Capitulo 1 - Fundamentos da linguagem Java 1.png",
+    "Java para Iniciantes/Capitulo 1/Imagens/Capitulo 1 - Fundamentos da linguagem Java.png",
+    "RoadMap do Iryu/RoadMap.canvas",
+    "Java para Iniciantes/Capitulo 4/Capítulo 4 - Introdução a classes, objetos e métodos.md",
+    "Java para Iniciantes/Capitulo 2/Capitulo 2 - Introdução a tipo de dados e operadores.md",
+    "Java para Iniciantes/Capitulo 4/Imagens",
+    "Java para Iniciantes/Capitulo 4",
     "Java para Iniciantes/Capitulo 2/Imagens/Capitulo 2 - Introdução a tipo de dados e operadores 5.png",
     "Codigos/EscapeSequence.java",
     "Codigos/asd.java",
-    "Java para Iniciantes/Capitulo 2/Capitulo 2 - Introdução a tipo de dados e operadores.md",
     "Codigos/Main.java",
     "Codigos/Literais.java",
     "Codigos/out/production/Codigos/Main.class",
     "Codigos/out/production/Codigos/Literais.class",
     "Codigos/out/production/Codigos",
     "Codigos/out/production",
-    "Codigos/out",
-    "Codigos/untitled/src/Literais.java",
-    "Java para Iniciantes/Capitulo 1/Capitulo 1 - Fundamentos da linguagem Java.md",
     "Pasted image 20250210172513.png",
     "Java para Iniciantes/Capitulo 2/Imagens/Capitulo 2 - Introdução a tipo de dados e operadores 4.png",
-    "RoadMap do DavJaveiro/RoadMap.canvas",
-    "RoadMap do DavJaveiro/RoadMap.md",
+    "RoadMap do Iryu/RoadMap.md",
     "Java para Iniciantes/Capitulo 2/Imagens/Capitulo 2 - Introdução a tipo de dados e operadores 3.png",
     "Java para Iniciantes/Capitulo 2/Imagens/Capitulo 2 - Introdução a tipo de dados e operadores 2.png",
     "Java para Iniciantes/Capitulo 2/Imagens/Capitulo 2 - Introdução a tipo de dados e operadores 1.png",
     "Java para Iniciantes/Capitulo 2/Imagens/Capitulo 2 - Introdução a tipo de dados e operadores.png",
     "Java para Iniciantes/Capitulo 1/Principais Habilidades e Conceitos.md",
     "Assuntos para pesquisar.md",
-    "Java para Iniciantes/Capitulo 1/Imagens/Capitulo 1 - Fundamentos da linguagem Java 2.png",
-    "Java para Iniciantes/Capitulo 1/Imagens/Capitulo 1 - Fundamentos da linguagem Java 1.png",
-    "Java para Iniciantes/Capitulo 1/Imagens/Capitulo 1 - Fundamentos da linguagem Java.png",
     "Conceitos/Programas Ativos.md",
     "Conceitos/Informações Passivas.md",
     "Java para Iniciantes/Capitulo 1/Imagens/Untitled.canvas",
     "Java para Iniciantes/Capitulo 1/Drawing 2025-02-05 17.11.23.excalidraw.md",
-    "RoadMap do DavJaveiro/Untitled.canvas",
-    "RoadMap do DavJaveiro/Covers/Think Java.png",
+    "RoadMap do Iryu/Untitled.canvas",
     "README.md",
     "Behavioral Interview/Introdução.md",
     "CND.md",
@@ -276,7 +274,6 @@
     "Engenharia de Software Moderna/Capítulo 1 - Introdução.md",
     "Java Interview/Básico de Java/Básico de Java.md",
     "Java Nelio Alves/Seção 1 - Conceitos de Programação/4. Algoritmo, Automação, Programa de Computador.md",
-    "Descomplicando o Docker/1. O que é um container.md",
     "RoadMap do DavJaveiro/Sem título.canvas",
     "Indistraível - Nir Eyal/Resumo.canvas"
   ]

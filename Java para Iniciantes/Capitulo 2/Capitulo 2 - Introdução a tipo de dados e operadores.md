@@ -1,4 +1,4 @@
-**Principais habilidades e conceitos**
+## **Principais habilidades e conceitos**
 • Conhecer os tipos primitivos de Java 
 • Usar literais 
 • Inicializar variáveis 
@@ -11,11 +11,11 @@
 • Converter tipos incompatíveis
 • Entender a conversão de tipos em expressões
 
-### Tipo primitivos de Java
+## Tipo primitivos de Java
 
 ![[Java para Iniciantes/Capitulo 2/Imagens/Capitulo 2 - Introdução a tipo de dados e operadores.png]]
 
-#### Inteiros
+### Inteiros
 
 Existem 4 tipo de #inteiros, #byte,#short,#int,#long
 
@@ -28,13 +28,13 @@ Tecnicamente, em tempo de execução, Java pode usar qualquer tamanho para armaz
 ![[Capitulo 2 - Introdução a tipo de dados e operadores 2.png]]
 #ats
 
-#### Ponto Flutuante
+### Ponto Flutuante
 
 Existem dois tipos de ponto flutuante #float e #double, sendo o primeiro com 32 bits e o segundo com 64 bits. 
 
 O double é mais usado por ser o tipo que a #classe padrão do *Math* retorna. 
 
-#### Caracteres
+### Caracteres
 
 Em Java, os caracteres não são armazenados em 8 bits como em outras linguagens. O Java usa o #unicode, ele define um conjunto de caracteres que podem representar todos os caracteres encontrados em todos os tipos de idiomas. O #char é um tipo de 16 bits (sem sinal) cobre um intervalo de 0 a 65,536. A tabela #ASCII, sendo um subconjunto do #unicode, usa 8 bits por padrão cobrindo um intervalo de 0 a 127.
 
@@ -62,12 +62,12 @@ Na linha 51 podemos ver que o #char *pode* ser incrementado e na linha 54 podemo
 
 ![[Capitulo 2 - Introdução a tipo de dados e operadores 3.png]] #ats
 
-#### Booleano
+### Booleano
 
 O tipo #boolean recebe os valores verdadeiro ou falso.
 
 
-#### Exercício
+### Exercício
 
 Neste projeto, você criará um programa que calcula a que distância, em pés,
 um ouvinte está da queda de um relâmpago. O som viaja a aproximadamente 1.100 pés por segundo pelo ar. Logo, conhecer o intervalo entre o momento em que você viu um relâmpago e o momento em que o som o alcançou lhe permitirá calcular a distância do relâmpago. Para este projeto, assuma que o intervalo seja de 7,2 segundos.
@@ -76,7 +76,7 @@ Resolução:
 
 ![[Sound.java]]
 
-### Literais
+## Literais
 #literal
 
 Em java os #literal são valores fixos representados em sua forma legível por humanos. Os literais são qualquer tipo de dado primitivo e a maneira de ser representado depende do tipo. As constantes no Java são  representada por *'* *'*, por exemplo 'a' e '%' são constantes de caracteres. Por padrão, os #inteiros são declarados simplesmente colocando o numero e os #long são declarados acrescentando um L na frente do número. Por exemplo: 12 é um inteiro, mas 12L é um #long.
@@ -89,7 +89,7 @@ A partir do JDK 7, é permitido embutir um ou mais sublinhados em um literal in
 
 Essa linha especifica o valor 123.451.234. O uso de sublinhados é particularmente útil na codificação de coisas como números de peças, identificações de clientes e códigos de status que normalmente são criados como uma combinação de subgrupos de dígitos.
 
-#### Literais hexadecimais, octais e binários
+### Literais hexadecimais, octais e binários
 
 Sistemas baseados em 8 ou 16 em vez de 10 normalmente são mais fáceis de usar na programação.
 
@@ -119,7 +119,7 @@ Esse é o valor 0xFF em hexadecimal: 255
 Esse é o valor 011 em octal: 9
 Esse é o valor 1100 em binario: 12
 
-#### Sequências de escape de caracteres
+### Sequências de escape de caracteres
 
 ![[Capitulo 2 - Introdução a tipo de dados e operadores 4.png]]
 
@@ -127,7 +127,7 @@ O \ddd por ser octal aceita 3 algarismos, no intervalo de [0-7], mas pela quanti
 
 ![[Capitulo 2 - Introdução a tipo de dados e operadores 5.png]]#ats
 
-#### Um exame mais detalhado das variáveis
+### Um exame mais detalhado das variáveis
 
 Inicialização de #variavel.
 
@@ -167,7 +167,7 @@ class DynInit {
 ```
 
 
-#### Operadores de Curto-Cicuito
+### Operadores de Curto-Cicuito
 
 Normalmente usando operadores comuns em uma condicional #if ele verifica tomas a proposições lógicas, mas os operadores de curto-circuito eles ajudam na eficiência do código.
 

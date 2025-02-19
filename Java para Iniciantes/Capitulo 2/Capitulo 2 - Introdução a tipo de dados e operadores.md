@@ -1,15 +1,15 @@
 ## **Principais habilidades e conceitos**
-• Conhecer os tipos primitivos de Java 
-• Usar literais 
-• Inicializar variáveis 
-• Saber as regras de escopo de variáveis dentro de um método
-• Usar os operadores aritméticos
-• Usar os operadores relacionais e lógicos 
-• Entender os operadores de atribuição 
-• Usar atribuições abreviadas 
-• Entender a conversão de tipos em atribuições 
-• Converter tipos incompatíveis
-• Entender a conversão de tipos em expressões
+- [x]  Conhecer os tipos primitivos de Java 
+- [x]  Usar literais 
+- [x]  Inicializar variáveis 
+- [x]  Saber as regras de escopo de variáveis dentro de um método
+- [x]  Usar os operadores aritméticos
+- [x]  Usar os operadores relacionais e lógicos 
+- [x]  Entender os operadores de atribuição 
+- [x] Usar atribuições abreviadas 
+- [x]  Entender a conversão de tipos em atribuições 
+- [x]  Converter tipos incompatíveis
+- [x]  Entender a conversão de tipos em expressões
 
 ## Tipo primitivos de Java
 

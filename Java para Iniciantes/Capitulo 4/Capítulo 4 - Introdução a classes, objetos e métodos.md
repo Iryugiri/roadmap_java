@@ -1,16 +1,16 @@
 ### **Principais habilidades e conceitos**
-• Saber os fundamentos da classe 
-• Entender como os objetos são criados 
-• Entender como as variáveis de referência são atribuídas 
-• Criar métodos, retornar valores e usar parâmetros 
-• Usar a palavra-chave return 
-• Retornar um valor de um método 
-• Adicionar parâmetros a um método 
-• Utilizar construtores 
-• Criar construtores parametrizados 
-• Entender new 
-• Entender a coleta de lixo e os finalizadores 
-• Usar a palavra-chave this
+- [x] Saber os fundamentos da classe 
+- [x]  Entender como os objetos são criados 
+- [x]  Entender como as variáveis de referência são atribuídas 
+- [x]  Criar métodos, retornar valores e usar parâmetros 
+- [ ]  Usar a palavra-chave return 
+- [ ]  Retornar um valor de um método 
+- [ ]  Adicionar parâmetros a um método 
+- [ ]  Utilizar construtores 
+- [ ]  Criar construtores parametrizados 
+- [ ]  Entender new 
+- [ ]  Entender a coleta de lixo e os finalizadores 
+- [ ]  Usar a palavra-chave this
 
 ## <span style="background:#d4b106">Definindo uma classe</span>
 Desenvolveremos uma classe chamada *Vehicle* que conterá três informações sobre um veículo:

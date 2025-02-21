@@ -8,9 +8,9 @@
 - [x]  Adicionar parâmetros a um método 
 - [x]  Utilizar construtores 
 - [x]  Criar construtores parametrizados 
-- [ ]  Entender new 
-- [ ]  Entender a coleta de lixo e os finalizadores 
-- [ ]  Usar a palavra-chave this
+- [x]  Entender new 
+- [x]  Entender a coleta de lixo e os finalizadores 
+- [x]  Usar a palavra-chave this
 
 ## <span style="background:#d4b106">Definindo uma classe</span>
 Desenvolveremos uma classe chamada *Vehicle* que conterá três informações sobre um veículo:
@@ -111,7 +111,7 @@ modificador-de-acesso Nome-da-classe (Parametros) {
 }
 ```
 
-### Operador New
+## <span style="background:#d4b106">Operador New</span>
 
 Forma Geral
 
@@ -123,7 +123,7 @@ var-classe = new nome-classe(lista-arg)
 
 O operador #new retorna uma referência ao objeto recém criado.
 
-### Garbage Colector
+## <span style="background:#d4b106">Garbage Colector</span>
 
 A alocação de memória não é infinita, então é possível que o #new falhe por nao ter memória.
 
@@ -134,3 +134,11 @@ Funciona assim: Quando não existe nenhuma referência a um objeto, ele não é 
 ![[Capítulo 4 - Introdução a classes, objetos e métodos.png]]#ats
 
 A coleta de lixo só ocorre esporadicamente durante a execução do programa. Ela não ocorrerá só porque existem um ou mais objetos que não são mais usados. A título de eficiência, geralmente o cletor de lixo só é executado quando duas condições são atendidas: há objetos a serem reciclados e há a necessidade de reciclá-los. Lembre-se, a coleta de lixo é demorada, logo, o sistema de tempo de execução Java só a executa quando apropriado. Portanto, não temos como saber exatamente quando ela ocorrerá.
+
+### Método **finalize()**
+
+É possível definir um método para ser chamado imediatamente antes da destruição final de um objeto pelo coletor de lixo. É importante entender que **finalize( )** é chamado imediatamente antes da coleta de lixo. Ele não é chamado quando um objeto sai de escopo, por exemplo. Ou seja, não temos como saber quando, ou até mesmo se **finalize( )** será executado. Por exemplo, se o programa terminar antes da coleta de lixo ocorrer, finalize( ) não será executado. Logo, ele deve ser usado como um procedimento “reserva” para assegurar o tratamento apropriado de algum recurso ou para aplicações de uso especial, e não como um artifício para o programa usar em sua operação normal.
+
+## <span style="background:#d4b106">A palavra-chave this</span>
+
+Quando um método é chamado, ele recebe automaticamente um argumento implícito, que é uma referência ao objeto chamador (isto é, o objeto em que o método é chamado).

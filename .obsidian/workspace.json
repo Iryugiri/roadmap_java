@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ats",
+                "query": "tag:#construtor",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -138,12 +138,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RoadMap do DavJaveiro/RoadMap.canvas",
+                "file": "RoadMap do Iryu/Untitled.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para RoadMap"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
@@ -181,13 +181,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java para Iniciantes/Capitulo 2/Capitulo 2 - Introdução a tipo de dados e operadores.md",
+                "file": "Java para Iniciantes/Capitulo 4/Capítulo 4 - Introdução a classes, objetos e métodos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Capitulo 2 - Introdução a tipo de dados e operadores"
+              "title": "Outline of Capítulo 4 - Introdução a classes, objetos e métodos"
             }
           },
           {
@@ -224,12 +224,15 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "6830853bfce458a9",
+  "active": "d3010e0df1731859",
   "lastOpenFiles": [
-    "Java para Iniciantes/Capitulo 1/Capitulo 1 - Fundamentos da linguagem Java.md",
-    "Java para Iniciantes/Capitulo 4/Capítulo 4 - Introdução a classes, objetos e métodos.md",
-    "Java para Iniciantes/Capitulo 2/Capitulo 2 - Introdução a tipo de dados e operadores.md",
+    "Java para Iniciantes/Capitulo 4/Imagens/Capítulo 4 - Introdução a classes, objetos e métodos.png",
     "RoadMap do Iryu/Untitled.canvas",
+    "Java para Iniciantes/Capitulo 4/Capítulo 4 - Introdução a classes, objetos e métodos.md",
+    "Facu/Untitled.canvas",
+    "Facu",
+    "Java para Iniciantes/Capitulo 1/Capitulo 1 - Fundamentos da linguagem Java.md",
+    "Java para Iniciantes/Capitulo 2/Capitulo 2 - Introdução a tipo de dados e operadores.md",
     "Java para Iniciantes/Capitulo 1/Imagens/Capitulo 1 - Fundamentos da linguagem Java 2.png",
     "Java para Iniciantes/Capitulo 1/Imagens/Capitulo 1 - Fundamentos da linguagem Java 1.png",
     "Java para Iniciantes/Capitulo 1/Imagens/Capitulo 1 - Fundamentos da linguagem Java.png",
@@ -244,7 +247,6 @@
     "Codigos/out/production/Codigos/Main.class",
     "Codigos/out/production/Codigos/Literais.class",
     "Codigos/out/production/Codigos",
-    "Codigos/out/production",
     "Pasted image 20250210172513.png",
     "Java para Iniciantes/Capitulo 2/Imagens/Capitulo 2 - Introdução a tipo de dados e operadores 4.png",
     "RoadMap do Iryu/RoadMap.md",

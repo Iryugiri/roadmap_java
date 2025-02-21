@@ -3,11 +3,11 @@
 - [x]  Entender como os objetos são criados 
 - [x]  Entender como as variáveis de referência são atribuídas 
 - [x]  Criar métodos, retornar valores e usar parâmetros 
-- [ ]  Usar a palavra-chave return 
-- [ ]  Retornar um valor de um método 
-- [ ]  Adicionar parâmetros a um método 
-- [ ]  Utilizar construtores 
-- [ ]  Criar construtores parametrizados 
+- [x]  Usar a palavra-chave return 
+- [x]  Retornar um valor de um método 
+- [x]  Adicionar parâmetros a um método 
+- [x]  Utilizar construtores 
+- [x]  Criar construtores parametrizados 
 - [ ]  Entender new 
 - [ ]  Entender a coleta de lixo e os finalizadores 
 - [ ]  Usar a palavra-chave this
@@ -89,3 +89,48 @@ tipo-ret nome ( lista-parâmetros ) {
 ### Usando parâmetros
 
 Podemos passar um ou mais valores para um método quando ele é chamado. Um valor passado para um método se chama argumento. Dentro do método, a variável que recebe o argumento se chama parâmetro. Os parâmetros são declarados dentro dos parênteses que vêm após o nome do método.
+
+### Retornando um Método
+
+A instrução #return é "um palavra-chave do Java que retorna", ela pode retornar um void (métodos que não retornam valor) e os que retornam valor. 
+
+
+## <span style="background:#d4b106">Construtores</span>
+
+### Definição
+
+Um #construtor **inicializa um objeto** quando este é criado. Ele tem o mesmo nome de sua classe e é sintaticamente semelhante a um #método. No entanto, os construtores **não têm um tipo de retorno explícito**. Normalmente, usamos um #construtor para fornecer valores iniciais para as variáveis de instância definidas pela classe ou para executar algum outro procedimento de inicialização necessário à criação de um objeto totalmente formado.
+
+Todas as classes têm construtores, mesmo quando não definimos um, porque Java fornece automaticamente um construtor padrão que inicializa todas as variáveis membros com seus valores padrão, que são zero, #null e #false, para tipos numéricos, tipos de referência e booleans, respectivamente. No entanto, quando definimos nosso próprio construtor, o #construtor padrão não é mais usado.
+
+### Forma Geral
+
+```Java
+modificador-de-acesso Nome-da-classe (Parametros) {
+	escopo
+}
+```
+
+### Operador New
+
+Forma Geral
+
+```Java
+var-classe = new nome-classe(lista-arg)
+```
+
+#new instância um construtor da classe, se não houver construtor ela instância um que é definido pelo proprio Java.
+
+O operador #new retorna uma referência ao objeto recém criado.
+
+### Garbage Colector
+
+A alocação de memória não é infinita, então é possível que o #new falhe por nao ter memória.
+
+Em algumas linguagens isso é feito manualmente, mas em Java o sistema de coleta de lixo reclama os objetos automaticamente, sendo de maneira transparente em segundo plano.
+
+Funciona assim: Quando não existe nenhuma referência a um objeto, ele não é mais considerado necessário e a memória ocupada é liberada, então  reciclando, podendo ser usada em uma alocação subsequente.
+
+![[Capítulo 4 - Introdução a classes, objetos e métodos.png]]#ats
+
+A coleta de lixo só ocorre esporadicamente durante a execução do programa. Ela não ocorrerá só porque existem um ou mais objetos que não são mais usados. A título de eficiência, geralmente o cletor de lixo só é executado quando duas condições são atendidas: há objetos a serem reciclados e há a necessidade de reciclá-los. Lembre-se, a coleta de lixo é demorada, logo, o sistema de tempo de execução Java só a executa quando apropriado. Portanto, não temos como saber exatamente quando ela ocorrerá.

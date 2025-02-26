@@ -1,5 +1,5 @@
-# DavJaveiro Study RoadMap Obsidian 
-<h1>Fala, Noobs! 🚀</h1>
+# Dev Iryu
+<h1>Fala, rapaziada! 🚀</h1>
 <p>
   Este repositório reúne minhas anotações de estudo e meu <strong>Roadmap</strong> para me tornar um <strong>Software Engineer</strong>. 
   Aqui você encontrará:
@@ -79,11 +79,3 @@ Utilize a funcionalidade de links internos, tabelas dinâmicas e outros recursos
   <p align="left">Cada repositório conterá os códigos com os exercícios propostos nos livros, seja um exercício em código ou questões discursivas e mutipla escolha.</p>
 
 <p>Exemplo do código acima:</p>
-
-<h2 align="left">My Tree Graph</h2>
-  <p>Exemplo da árvore de links quando você começar a alimentar o seu "cofre" e criar os seus links entre as notas e arquivos:</p>
-
-   <p align="left">
-  <img src="https://github.com/user-attachments/assets/45bbe61c-fff1-41a8-8082-d7025bf7df49" width="1200">
- </p>
- 

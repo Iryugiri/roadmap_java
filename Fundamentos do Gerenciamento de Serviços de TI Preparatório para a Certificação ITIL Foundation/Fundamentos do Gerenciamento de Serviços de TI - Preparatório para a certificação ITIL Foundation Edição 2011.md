@@ -31,7 +31,7 @@ As paginas lidas serão diacordo com o que foi marcado no plano de estudo: [Guia
 	- *Finalidade:* Diferenciar claramente os papéis da Governança e da Gestão de TI no ambiente organizacional.
 	- Funções e responsabilidades da Governança de TI.
 		- [ ] Pag. 4 a 8 
-		- [ ]  Todo o artigo: [[T14_0075.pdf]] 
+		- [ ]  Todo o artigo: [Resumo](obsidian://open?vault=roadmap_java&file=Artigos%2FResumos%20dos%20artigos%2FDIFEREN%C3%87AS%20ENTRE%20GEST%C3%83O%20DE%20TI%20E%20GOVERNAN%C3%87A%20DE%20TI%20%E2%80%93%20UMA%20BREVE%20COMPARA%C3%87%C3%83O) -> [[DIFERENÇAS ENTRE GESTÃO DE TI E GOVERNANÇA DE TI – UMA BREVE COMPARAÇÃO.pdf]]
 5. <span style="background:#d4b106">Exemplos de Aplicação de Governança em Empresas Fictícias</span>
 	- *Finalidade:* Demonstrar a aplicação prática dos conceitos por meio de cenários fictícios que ilustram desafios e soluções em Governança de TI.
 	- Estudos de caso fictícios: boas práticas e impactos positivos. 
